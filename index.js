@@ -10,7 +10,6 @@ app.get('/', (req, res) => {
 
 app.use(Gun.serve)
 
-
 const server = app.listen(port, () => {
   console.log(`Gun server running on port ${port}`)
 })
